@@ -1,0 +1,109 @@
+<DOCTYPE html>
+<html lang="pt_BR">
+
+  <head>
+    <title>Minha primeira SVG no Photopea</title>
+	<meta charset="utf-8" />
+
+  </head>
+  
+  <style>
+	body{
+	  text-align: center;
+	  font-family: Trebuchet MS;
+	}
+	
+	button{
+	  width:100; 
+	  height:30;
+	  border
+	}
+    
+	#video-rap {
+      display: none;
+	  align: center;
+	  margin-top:30px;
+	}
+  
+  </style>
+  
+  <body >
+	<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 1280 720" >
+		<title>Projeto teste</title>
+		<defs>
+			<image  width="1280" height="720" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQAQMAAAD1s08VAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAIdJREFUeJztwTEBAAAAwqD1T20JT6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeBrE3wABB8CymgAAAABJRU5ErkJggg=="/>
+			<filter x="-50%" y="-50%" width="200%" height="200%" id="flt1"> <feGaussianBlur stdDeviation="4.35" /> </filter>
+		</defs>
+		<style>
+			tspan { white-space:pre }
+			.shp0 { fill: #4dffff } 
+			.shp1 { fill: #2fcd2f } 
+			.shp2 { filter: url(#flt1);fill: #ffeb00 } 
+			.shp3 { fill: #ffeb00 } 
+			.shp4 { fill: #ffffff } 
+			.shp5 { opacity: 0.6;fill: #000000 } 
+			.shp6 { fill: #634128 } 
+			.shp7 { fill: #674731 } 
+			.shp8 { fill: #5b381f } 
+			.shp9 { fill: #654833 } 
+			.shp10 { fill: #472a16 } 
+			.shp11 { fill: #542e09 } 
+			.shp12 { fill: #813808 } 
+			.shp13 { fill: #5d3207 } 
+			.shp14 { fill: #515c5c } 
+		</style>
+		<use id="Background" href="#img1" x="0" y="0" />
+		<path id="Forma 1" class="shp0" d="M0 -9L1289 -9L1289 720L0 720L0 -9Z" />
+		<path id="Forma 2" class="shp1" d="M589.5 1222C16.32 1222 -447 1044.76 -447 825.5C-447 606.24 16.32 429 589.5 429C1162.68 429 1626 606.24 1626 825.5C1626 1044.76 1162.68 1222 589.5 1222Z" />
+		<path id="Forma 14" class="shp2" d="M706.5 283C699.03 283 693 276.97 693 269.5C693 262.03 699.03 256 706.5 256C713.97 256 720 262.03 720 269.5C720 276.97 713.97 283 706.5 283Z" />
+		<path id="Forma 14 copy" class="shp3" d="M706.5 283C699.03 283 693 276.97 693 269.5C693 262.03 699.03 256 706.5 256C713.97 256 720 262.03 720 269.5C720 276.97 713.97 283 706.5 283Z" />
+		<path id="Forma 3" class="shp4" d="M199.5 181C125.67 181 66 158.65 66 131C66 103.35 125.67 81 199.5 81C273.33 81 333 103.35 333 131C333 158.65 273.33 181 199.5 181Z" />
+		<path id="Forma 4" class="shp4" d="M309 193C257.57 193 216 180.71 216 165.5C216 150.29 257.57 138 309 138C360.43 138 402 150.29 402 165.5C402 180.71 360.43 193 309 193Z" />
+		<path id="Forma 5" class="shp4" d="M954 199C861.1 199 786 171.96 786 138.5C786 105.04 861.1 78 954 78C1046.9 78 1122 105.04 1122 138.5C1122 171.96 1046.9 199 954 199Z" />
+		<path id="Forma 6" class="shp4" d="M1113 199C1089.77 199 1071 187.38 1071 173C1071 158.62 1089.77 147 1113 147C1136.23 147 1155 158.62 1155 173C1155 187.38 1136.23 199 1113 199Z" />
+		<path id="Forma 7" class="shp4" d="M676.5 202C664.06 202 654 198.42 654 194C654 189.58 664.06 186 676.5 186C688.94 186 699 189.58 699 194C699 198.42 688.94 202 676.5 202Z" />
+		<path id="Forma 8" class="shp4" d="M118.5 247C86.15 247 60 237.39 60 225.5C60 213.61 86.15 204 118.5 204C150.85 204 177 213.61 177 225.5C177 237.39 150.85 247 118.5 247Z" />
+		<path id="Forma 9" class="shp4" d="M138 211C119.75 211 105 204.74 105 197C105 189.26 119.75 183 138 183C156.25 183 171 189.26 171 197C171 204.74 156.25 211 138 211Z" />
+		<path id="Forma 10" class="shp4" d="M628.5 205C601.13 205 579 198.07 579 189.5C579 180.93 601.13 174 628.5 174C655.87 174 678 180.93 678 189.5C678 198.07 655.87 205 628.5 205Z" />
+		<path id="Forma 11" class="shp4" d="M592.5 187C581.72 187 573 182.75 573 177.5C573 172.25 581.72 168 592.5 168C603.28 168 612 172.25 612 177.5C612 182.75 603.28 187 592.5 187Z" />
+		<path id="Forma 12 copy 2" class="shp5" d="M560.82 424L739.62 482.1L616.01 862.52L437.21 804.42L560.82 424ZM541 482L740 482L740 829L541 829L541 482Z" />
+		<path id="Forma 12 copy" class="shp6" d="M554 310L740 310L740 482L554 482L554 310Z" />
+		<path id="Forma 12 copy 4" class="shp7" d="M554.18 309.49L564.92 320.23L547.24 337.91L536.5 327.17L554.18 309.49Z" />
+		<path id="Forma 12 copy 3" class="shp8" d="M729.18 470.49L739.92 481.23L722.24 498.91L711.5 488.17L729.18 470.49Z" />
+		<path id="Forma 13" class="shp9" d="M554.5 327L554.5 310L726.5 310L726.5 327L554.5 327Z" />
+		<path id="Forma 13 copy" class="shp8" d="M723 310L740 310L740 482L723 482L723 310Z" />
+		<path id="Forma 12" class="shp7" d="M729.18 299.49L739.92 310.23L722.24 327.91L711.5 317.17L729.18 299.49Z" />
+		<path id="Forma 15" class="shp0" d="M717 297L740 297L740 310L717 310L717 297Z" />
+		<path id="Forma 12 copy 5" class="shp10" d="M537 327L723 327L723 499L537 499L537 327Z" />
+		<path id="Forma 16" class="shp11" d="M580 423L616 423L616 499L580 499L580 423Z" />
+		<path id="Forma 19" class="shp5" d="M551 314L726 314L726 323L551 323L551 314Z" />
+		<path id="Forma 20" class="shp7" d="M729.1 311.87L733.34 316.11L722.73 326.72L718.49 322.47L729.1 311.87Z" />
+		<path id="Forma 20 copy" class="shp7" d="M555.1 309.87L559.34 314.11L548.73 324.72L544.49 320.47L555.1 309.87Z" />
+		<path id="Forma 16 copy" class="shp12" d="M581 425L615 425L615 499L581 499L581 425Z" />
+		<path id="Forma 18" class="shp13" d="M583 459L588 459L588 467L583 467L583 459Z" />
+		<path id="Forma 21" class="shp14" d="M658 431L695 431L695 468L658 468L658 431Z" />
+		<path id="Forma 21 copy" class="shp0" d="M659 432L694 432L694 467L659 467L659 432Z" />
+		<path id="Forma 22" class="shp14" d="M676.5 432L677.5 432L677.5 467L676.5 467L676.5 432Z" />
+		<path id="Forma 22 copy" class="shp14" d="M659 450.5L659 449.5L694 449.5L694 450.5L659 450.5Z" />
+		<path id="Forma 21 copy 2" class="shp14" d="M658 431L695 431L695 468L658 468L658 431Z" />
+		<path id="Forma 21 copy 3" class="shp0" d="M659 432L694 432L694 467L659 467L659 432Z" />
+		<path id="Forma 22 copy 2" class="shp14" d="M676.5 432L677.5 432L677.5 467L676.5 467L676.5 432Z" />
+		<path id="Forma 22 copy 3" class="shp14" d="M659 450.5L659 449.5L694 449.5L694 450.5L659 450.5Z" />
+		<path id="Forma 17" class="shp13" d="M585.5 464C584.67 464 584 463.33 584 462.5C584 461.67 584.67 461 585.5 461C586.33 461 587 461.67 587 462.5C587 463.33 586.33 464 585.5 464Z" />
+	</svg>
+	
+    <h1>
+	SVG Criado Por MIM
+	</h1>
+	
+  
+	<p>
+	Site para estudo do elemento 'SVG'
+	</p> 
+	
+	
+
+	
+  </body>
+  
+</html>
